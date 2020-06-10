@@ -1,0 +1,27 @@
+
+
+.form-control {
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 0;
+}
+
+
+.form-control::placeholder {
+    color:  #494949;
+    font-weight: lighter;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.navbar {
+    border-radius: 40px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("http://assets.stickpng.com/thumbs/588a64e7d06f6719692a2d11.png");
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0) !important;
+}

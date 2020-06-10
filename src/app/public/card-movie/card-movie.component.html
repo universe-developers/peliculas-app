@@ -1,0 +1,8 @@
+<div class="card m-1" style="width: 18rem;">
+    <img src="{{'https://image.tmdb.org/t/p/w300'+this.movie['poster_path']}}" class="card-img-top" height="280px" alt="...">
+    <div class="card-body bg-gray">
+        <h5 class="card-title">{{movie.original_title}}</h5>
+        <p class="card-text">{{movie.overview | cutoutText}}</p>
+        <a href="#" class="btn  btn-block btn-dark">Ver Pelicula</a>
+    </div>
+</div>

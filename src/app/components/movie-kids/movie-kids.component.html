@@ -1,0 +1,8 @@
+<<div class="container animated fadeInUp">
+    <div class="row  justify-content-center">
+        <div class="card-deck justify-content-center">
+            <app-card-movie *ngFor="let movie of this.moviePopularity"
+                            [movie]="movie"></app-card-movie>
+        </div>
+    </div>
+</div>
